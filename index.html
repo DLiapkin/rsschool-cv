@@ -7,8 +7,10 @@
   <title>CV</title>
 </head>
 <body>
+  <div class="wrapper">
     <header class="header">
       <div class="container">
+        <div class="flex-container">
           <div class= "fio">
             <h1 class = "fio-h1">Dmitry Liapkin</h1>
               <p class = "about">Beginning developer</p>
@@ -19,10 +21,13 @@
               <img class="me" src="../rsschool-cv/img/cringe.jpg" alt = "image isn't loaded" width="140" height="140">
             </div><!--fio-image-w-->
           </div><!--fio-image-->
+        </div><!--flex-container-->
       </div><!--container-->
     </header>
     <section class="content">
       <div class="container">
+        <div class="flex-row">
+          <div class="flex-col-1">
             <h3 class="content-title">Education</h3> 
             <div class="content-info">
               <div class="content-info-w">
@@ -67,6 +72,8 @@
                 <span class="content-info-date">A2+ (Pre-Intermediate) - B1 (Intermediate)</span>
               </div><!--content-info-w-->
             </div><!--content-info-->
+          </div><!--flex-col-1-->
+          <div class="flex-col-2">
             <h3 class="content-title">Skills</h3> 
             <div class="content-info">
               <div class="content-info-w">
@@ -84,6 +91,18 @@
                 <div class="divide-line"></div>
               </div><!--content-info-w-->
             </div><!--content-info-->
+            <div class="content-info">
+                <div class="content-info-w">
+                  <span class="content-info-date">Worked in</span>
+                  <ul class="content-info-list">
+                    <li>PyCharm</li>
+                    <li>Inteliji Idea</li>
+                    <li>Visual Studio</li>
+                    <li>CLion</li>
+                    <li>OSTIS :)</li>
+                  </ul>
+                </div><!--content-info-w-->
+              </div><!--content-info-->
             <h3 class="content-title">About me</h3> 
             <div class="content-info">
               <div class="content-info-w">
@@ -96,10 +115,14 @@
                   but WEB development is like a brand new world for me. </p>
               </div><!--content-info-w-->
             </div><!--content-info-->
+          </div><!--flex-col-2-->
+        </div><!--flex-row-->
       </div><!--container-->
     </section>
     <div class="divide-line"></div>
+    <footer class="footer">
       <div class="container">
+        <div class="flex-footer">
             <h3 class="content-title">GitHub</h3> 
             <div class="content-info">
               <div class="content-info-w">
@@ -107,6 +130,9 @@
                 <span><b>2022</b></span>
               </div><!--content-info-w-->
             </div><!--content-info-->
+        </div>
       </div>
+    </footer>
+  </div><!--wrapper-->
 </body>
 </html>
