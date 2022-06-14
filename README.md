@@ -1,1 +1,1 @@
-# rsschool-cv
+https://DLiapkin.github.io/rsschool-cv/
